@@ -7,11 +7,10 @@ import org.junit.Test;
 
 public class CalculatorTest {
 	@Test
-	
 	public void test_calculate_add_numbers_return_expected () {
 		//Setting up
-		double number1 = 1;
-		double number2 = 5;
+		int number1 = 1;
+		int number2 = 5;
 		String operator = "+";
 		
 		//Expected result
