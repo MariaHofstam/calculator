@@ -88,7 +88,10 @@ public class App
 			
 			result = calculate(num1,num2,operator);
 			System.out.println("The result is: " + result);
-			valid = false;
+			
+			System.out.println("Do you want to calculate again? Y/N "); 	//Calculate again?
+			calc = getStringFromUser();
+			valid = playing(calc);
 		
 		}											// Player do NOT want to calculate
 		System.out.println("Welcome back!");
